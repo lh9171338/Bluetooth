@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/pic6"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/s_devicename1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@layout/shape"
+        android:textSize="16sp" 
+        android:padding="10dip"
+        android:text="@string/devicename" />
+   	<TextView
+        android:id="@+id/s_devicename2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/shape"
+        android:textSize="16sp" 
+        android:padding="10dip"
+        android:text="@string/devicename" />
+    <TextView
+        android:id="@+id/s_deviceaddress1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/shape"
+        android:textSize="16sp" 
+        android:padding="10dip"
+        android:text="@string/deviceaddress" />
+    <TextView
+        android:id="@+id/s_deviceaddress2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/shape"
+        android:textSize="16sp" 
+        android:padding="10dip"
+        android:text="@string/deviceaddress" />
+    <TextView
+        android:id="@+id/s_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/shape"
+        android:textSize="16sp" 
+        android:padding="10dip"
+        android:text="@string/name" />
+   <EditText  
+    	android:id="@+id/s_e_name" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:background="@layout/shape"
+    	android:ems="10"
+    	android:textSize="16sp" 
+		android:padding="10dip" />
+   <TextView
+        android:id="@+id/s_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/shape"
+        android:textSize="16sp" 
+        android:padding="10dip"
+        android:text="@string/password" />
+   <EditText  
+    	android:id="@+id/s_e_password" 
+   	 	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:background="@layout/shape2"
+    	android:ems="6"
+    	android:maxLength="6"
+    	android:password="true"
+    	android:numeric="decimal"
+    	android:textSize="16sp" 
+		android:padding="10dip"/>
+    <Button
+        android:id="@+id/s_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" 
+        android:padding="10dip"
+        android:text="@string/add" />
+
+</LinearLayout>

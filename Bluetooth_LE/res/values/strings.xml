@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  						<!--  英文界面  -->
+<!--     <string name="app_name">Bluetooth_LE_1</string>
+    <string name="title_devices">Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="ble_not_supported">Ble not supported.</string>
+	
+    <string name="devicename">devicename</string>
+    <string name="deviceaddress">deviceaddress</string>
+    <string name="name">name</string>
+    <string name="password">password</string>
+    <string name="add">add</string>
+ 
+    <string name="o_name">name</string>
+    <string name="o_switch">state</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    
+    <string name="e_devicename">devicename</string>
+    <string name="e_deviceaddress">deviceaddress</string>
+    <string name="t_name">name</string>
+    <string name="t_password">password</string>
+    <string name="e_state">state</string>
+    <string name="ok">OK</string>
+    
+    <string name="setting_item1">indicate setting</string>
+    <string name="setting_item2">close setting</string>
+	
+    Menu items
+    <string name="menu_add">Add</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_erase">Erase</string>  -->
+    
+    
+<!--     						 中文界面 
+    <string name="app_name">开锁宝</string>
+    <string name="title_devices">扫描</string>
+    <string name="error_bluetooth_not_supported">不支持蓝牙</string>
+    <string name="ble_not_supported">不支持蓝牙低功耗</string>
+	
+    <string name="devicename">设备名称</string>
+    <string name="deviceaddress">设备地址</string>
+    <string name="name">名称</string>
+    <string name="password">密码</string>
+    <string name="add">添加</string>
+    <string name="refresh">刷新</string>
+    <string name="delete">删除</string>
+ 
+    <string name="o_name">名称</string>
+    <string name="o_switch">状态</string>
+    <string name="on">开</string>
+    <string name="off">关</string>
+    
+    <string name="e_devicename">设备名称</string>
+    <string name="e_deviceaddress">设备地址</string>
+    <string name="t_name">名称</string>
+    <string name="t_password">密码</string>
+    <string name="e_state">状态</string>
+    <string name="ok">确定</string>
+    
+    <string name="setting_item1">打开蓝牙时提醒</string>
+    <string name="setting_item2">退出应用程序时关闭蓝牙</string>
+	
+    Menu items
+    <string name="menu_add">添加</string>
+    <string name="menu_delete">删除</string>
+    <string name="menu_scan">扫描</string>
+    <string name="menu_stop">停止</string>
+    <string name="menu_refresh">刷新</string>
+    <string name="menu_setting">设置</string>
+    <string name="menu_edit">编辑</string>
+    <string name="menu_erase">擦除</string> -->
+    
+    							<!--  中文界面  -->
+    <string name="app_name">开锁宝</string>
+    <string name="title_devices">扫描车辆</string>
+    <string name="error_bluetooth_not_supported">手机不支持蓝牙</string>
+    <string name="ble_not_supported">手机不支持蓝牙低功耗</string>
+	
+    <string name="devicename">蓝牙设备名称</string>
+    <string name="deviceaddress">蓝牙设备物理地址</string>
+    <string name="name">请为车辆设置名称</string>
+    <string name="password">请为车辆设置密码（不超过6位数字）</string>
+    <string name="add">添加车辆</string>
+    <string name="refresh">刷新界面</string>
+    <string name="delete">删除车辆</string>
+ 
+    <string name="o_name">车辆名称</string>
+    <string name="o_switch">车锁状态</string>
+    <string name="on">开</string>
+    <string name="off">关</string>
+    <string name="o_explain">点击开关可以进行开锁</string>
+    
+    <string name="e_devicename">蓝牙设备名称</string>
+    <string name="e_deviceaddress">蓝牙设备物理地址</string>
+    <string name="t_name">车辆名称</string>
+    <string name="t_password">车辆密码</string>
+    <string name="e_state">车锁状态</string>
+    <string name="ok">确定修改</string>
+    
+    <string name="setting_item1">打开蓝牙时提醒</string>
+    <string name="setting_item2">退出时自动关闭蓝牙</string>
+    <string name="explain_item1">开启后，进入应用程序时，屏幕将弹出对话框让用户同意开启蓝牙;关闭则程序会自动打开蓝牙而不提示用户。</string>
+    <string name="explain_item2">开启后，退出应用程序时将自动关闭蓝牙;关闭则程序不会自动关闭蓝牙。</string>
+    
+	
+    <!-- Menu items -->
+    <string name="menu_add">添加车辆</string>
+    <string name="menu_delete">删除车辆</string>
+    <string name="menu_scan">扫描车辆</string>
+    <string name="menu_stop">停止扫描</string>
+    <string name="menu_refresh">刷新界面</string>
+    <string name="menu_setting">设置</string>
+    <string name="menu_edit">编辑车辆信息</string>
+    <string name="menu_erase">删除车辆</string>
+    
+</resources>

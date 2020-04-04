@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/pic9"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/e_devicename1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@layout/shape"
+        android:textSize="16sp" 
+        android:padding="10dip"
+        android:text="@string/e_devicename" />
+	<TextView
+        android:id="@+id/e_devicename2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/shape"
+        android:textSize="16sp" 
+        android:padding="10dip"
+        android:text="@string/e_devicename" />
+    <TextView
+        android:id="@+id/e_deviceaddress1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/shape"
+        android:textSize="16sp" 
+        android:padding="10dip"
+        android:text="@string/e_deviceaddress" />
+	<TextView
+        android:id="@+id/e_deviceaddress2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/shape"
+        android:textSize="16sp" 
+        android:padding="10dip"
+        android:text="@string/e_deviceaddress" />
+    <TextView
+        android:id="@+id/e_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/shape"
+        android:textSize="16sp" 
+        android:padding="10dip"
+        android:text="@string/t_name" />
+
+    <EditText
+        android:id="@+id/e_e_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/shape"
+        android:ems="6"
+        android:maxLength="6"
+        android:padding="10dip"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/e_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/shape"
+        android:textSize="16sp" 
+        android:padding="10dip"
+        android:text="@string/t_password" />
+
+    <EditText
+        android:id="@+id/e_e_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/shape"
+        android:ems="6"
+    	android:password="true"
+    	android:numeric="decimal"
+        android:padding="10dip"
+        android:textSize="16sp" >
+        <requestFocus />
+    </EditText>
+	
+    <TextView
+        android:id="@+id/e_state1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/shape"
+        android:textSize="16sp" 
+        android:padding="10dip"
+        android:text="@string/e_state" />
+    <TextView
+        android:id="@+id/e_state2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/shape2"
+        android:textSize="16sp" 
+        android:padding="10dip"
+        android:text="@string/e_state" />
+    <Button
+        android:id="@+id/bt_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" 
+        android:padding="10dip"
+        android:text="@string/ok" />
+</LinearLayout>
